@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body, html, h1,h2,h3,h4 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E5E5E5;
+
+    margin-bottom: 130px;
+}
+figure {
+    margin: 0;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+header {
+    background-color: #CF2B2B;
+    color: white;
+    padding: 6px;
+}
+
+h1, h2 {
+    font-family: 'Righteous', cursive;
+}
+
+form, footer {
+    padding: 30px 19px;
+}
+
+form section > div {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    overflow-x: scroll;
+}
+
+form > section > div > label {
+    background-color: #fff;
+    width: 220px;
+    padding: 10px;
+    border: 2px solid #fff;
+}
+
+form > section > div > label.selecionado {
+    border: 2px solid green;
+}
+
+form > section > div > label > input {
+    display: none;
+}
+
+form > section > div > label > ion-icon {
+    color: white;
+}
+
+form > section > div > label.selecionado > ion-icon {
+    color: green;
+}
+
+#submit {
+    border: none;
+    width: 100vw;
+    height: 100px;
+
+    position: fixed;
+    bottom: 0;
+
+    color: #fff;
+    font-size: 20px;
+}
