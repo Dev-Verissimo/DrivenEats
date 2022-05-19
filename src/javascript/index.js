@@ -1,7 +1,9 @@
 let body = document.querySelector('body');
 let labels = document.querySelectorAll('label')
 let input = document.querySelectorAll('label > input')
+
 const botao = document.querySelector('#submit')
+
 let valorDoPrato = 0
 let valorSobremesa = 0
 let valorBebida = 0
